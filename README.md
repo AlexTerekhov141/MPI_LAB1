@@ -28,7 +28,9 @@ blocking
 mpirun -np 4 ./nonblocking
 ```
 ### Графики
-
+![Efficiency plot](TASK1/efficiency.png)
+![SPEEDUP plot](TASK1/speedup.png)
+![TIME plot](TASK1/time.png)
 ## TASK2
 ### Компиляция
 ROW
@@ -57,3 +59,6 @@ BLOCK
 mpirun -np 4 ./matvec_block_mpi 1000
 ```
 ### Графики
+![Efficiency plot](TASK2/efficiency_N1000.png)
+![SPEEDUP plot](TASK2/speedup_N1000.png)
+![TIME plot](TASK2/time_N1000.png)
